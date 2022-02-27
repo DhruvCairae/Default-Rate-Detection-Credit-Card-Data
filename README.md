@@ -1,1 +1,8 @@
 # Default-Rate-Detection-Credit-Card-Data
+ 	-The data is originally presented in Yeh and Lien (2009) on “The comparisons of data mining techniques for the predictive accuracy of probability of default of credit card clients”. Primary focus is predicting the probability of default, comparing performance of this response variable across multiple models. The data is a combination of demographic and financial data relevant to the credit card user. -Financial data consists of information such as credit limit, history of past payments, amount of current & prior bill statement. Demographic data contains information such gender, education, marital status, & age
+ 	-22% Default rate in the data set. 39% men and 61% women. Around 45% are married and 53% are single, rest others. 35% went to graduate school, 47% went to university, 16% completed high school and 12% others. Average age is 35 with a standard deviation of 9, youngest being 21 & oldest being 79.
+ 	-Apart from gender, rest of the data appears to be fairly representative although the possibility that women use the credit card more extensively cannot be excluded. Data is very extensive with 30,000 observations spread over 24 variables capturing demographic data and trend of bills & payments
+ 	- Logistic Regression applied with best model selected with step-wise BIC/AIC, Lasso regression, evaluation criterion being AIC, BIC & Deviance. 
+ 	-ROC & AUC, Asymmetric cost evaluated for best fit model
+ 	-Classification Tree applied on the same data. ROC & AUC, Asymmetric cost evaluated for best fit classification tree model. 
+ 	- Performance of Logistic & Classification model evaluated along with a five-fold cross validation. 
